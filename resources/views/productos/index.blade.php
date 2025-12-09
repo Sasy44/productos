@@ -1,6 +1,6 @@
 <h1>Lista de Productos</h1>
 
-<a href="/productos/create">Nuevo Producto</a>
+<a href="/productos/stock-alto">Stock Alto</a>
 
 <table border="1" cellpadding="8">
     <tr>
