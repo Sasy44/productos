@@ -23,4 +23,10 @@ class ProductoController extends Controller
         Producto::create($request->all());
         return redirect('/productos');
     }
+
+    public function stockAlto()
+    {
+        $productos = Producto::where('stock', '>', 5)->get();
+        return view('productos.stock-alto', compact('productos'));
+    }
 }
